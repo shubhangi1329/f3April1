@@ -43,6 +43,10 @@ function renderEmp(fname,fprof,fage){
 
 msg.style.display="none";
 count++;
+   document.querySelector(".fname").value="";
+   document.querySelector(".fprof").value="";
+   document.querySelector(".fage").value="";
+     
 
     }
 
